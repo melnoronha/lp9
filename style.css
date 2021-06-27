@@ -1,0 +1,269 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* COLORS and FONTS */
+body {
+      text-align: center;
+      font-family: Verdana;
+      background-color: white;
+      color: darkorange;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background: #cc6600; /* https://rgbacolorpicker.com/hex-color-picker */
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+.wallpaper {
+  padding: 0px; 
+  text-align: center; 
+  background: white; 
+  color: #cc6600; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Increase the font size of the <h1> element */
+.wallpaper h1 {
+  font-size: 40px;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 50%; /* Set the width of the sidebar */
+  color: #e36b12; /* #e36b12 */
+  background-color: #c9c6a5; /* #c9c6a5, #ccbc9a, #e9dca3 */
+  padding: 180px; 
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Main column */
+.main {
+  flex: 50%; /* Set the width of the sidebar */
+  color: black; /* #e36b12 */
+  background-color: white; /* White background color */
+  padding: 140px; /* Some padding */
+  font-size: 22px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+footer {
+  padding: 10px; 
+  text-align: center;
+  background: black; 
+}
+
+.button {
+	text-decoration: none;
+  	border: none; /* Remove borders */
+  	color: white; /* Add a text color */
+  	background-color: #cc6600; 
+  	padding: 5px 10px; /* Add some padding */
+  	border-radius: 10px;
+  	font-size: 18px;
+  	font-weight: bold;
+}
+
+.button:hover{
+  background-color: rgba(201, 198, 165, 0.8);
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side2 {
+  flex: 50%; /* Set the width of the sidebar */
+  color: #e36b12;
+  background-color: #c9c6a5; /* Grey background color */
+  padding: 180px; /* Some padding */
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Main column */
+.main2 {
+  flex: 50%; /* Set the width of the main content */
+  color: black; /* #e36b12 */
+  background-color: white; /* White background color */
+  padding: 140px; /* Some padding */
+  font-size: 22px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row2 {
+    flex-direction: column;
+  }
+}
+
+.button2 {
+  text-decoration: none;
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    background-color: #cc6600; 
+    padding: 5px 10px; /* Add some padding */
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button:hover{
+  background-color: rgba(201, 198, 165, 0.8);
+}
+
+.LeWagon{
+  text-decoration: none;
+  color: #cc6600;
+}
+
+.FutreOfWork{
+  text-decoration: none;
+  color: #cc6600;
+}
+
+.right-sidebar2 {
+  color: #e36b12;
+  background-color: #c9c6a5; 
+  padding: 180px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.left-sidebar2{
+  color: black; /* #e36b12 */
+  background-color: white; 
+  padding: 140px;
+  font-size: 22px;
+}
+
+.button2 {
+    text-decoration: none;
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    background-color: #cc6600; 
+    padding: 5px 10px; /* Add some padding */
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button:hover{
+  background-color: rgba(201, 198, 165, 0.8);
+}
+
+.LandingJobs{
+  text-decoration: none;
+  color: #cc6600;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list li {
+  display: inline;
+}
+
+.list a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.list: hover a {
+  opacity: 0.8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;    
+    } 
+    
+  header,footer {
+        width: 100%;
+    }
+
+  .navbar {
+      width: 100%;
+    }
+    
+.message {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 20px;
+}
+
